@@ -1,0 +1,28 @@
+.firstblock {
+  background-color: #222222;
+}
+
+.firstblock__text {
+  color: #ffffff;
+}
+
+.firstblock__text-violet {
+  color: #ff88ff;
+}
+
+.firstblock__red {
+  width: 100px;
+  height: 100px;
+  background-color: #ff3333;
+}
+
+.secondblock {
+  background-color: #dd88ff;
+  width: 300px;
+}
+
+.secondblock__item {
+  background-color: #ba00cc;
+  color: white;
+}
+
