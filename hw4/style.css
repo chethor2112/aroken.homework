@@ -1,0 +1,29 @@
+header{
+  height: 60px;
+  background-color: #ff8928;
+}
+
+img{
+  width: 200px;
+}
+
+.second__quote{
+  background-color: #ffc9df;
+}
+
+
+footer{
+  margin-top: 30px;
+  height: 300px;
+  color: #ffffff;
+  background-color: #8800b9;
+}
+
+.footer__link{
+  color: #ffffff;
+}
+
+/* или можно так как ниже написано, выше я сделал сам, ниже посмотрел уже после в видео, так как не понял как лучше это реализовать
+footer a{
+  color: #ffffff;
+} */
