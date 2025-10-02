@@ -1,0 +1,30 @@
+span {
+  font-family: "Open Sans", sans-serif;
+}
+
+.t1 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+
+}
+
+.t2 {
+  text-decoration: line-through;
+}
+
+.t3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.t4 {
+  text-decoration: overline wavy;
+  word-spacing: 30px;
+}
+
+.t5 {
+  text-decoration: underline double;
+  letter-spacing: 5px;
+}
