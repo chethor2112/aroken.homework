@@ -91,7 +91,7 @@ h2 {
 
 .main__first-text {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-top: 60px;
 }
@@ -231,4 +231,5 @@ li {
 
 li:last-child {
   margin-bottom: 0px;
+
 }
