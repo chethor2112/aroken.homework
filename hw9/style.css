@@ -1,0 +1,50 @@
+body {
+  background-color: #555555;
+  height: 100vh;
+}
+
+.block {
+  position: relative;
+  left: 40%;
+  top: 30%;
+
+  width: 300px;
+  height: 300px;
+  background-color: #222222;
+  border-radius: 20%;
+}
+
+
+.block::before {
+  content: '';
+  display: block;
+  position: relative;
+  top: -30%;
+  right: 100%;
+  width: 0px;
+  height: 30px;
+  background-color: #fff;
+
+  transition: width 1s ease;
+}
+
+.block:hover::before {
+  width: 900px;
+  height: 30px;
+}
+
+.block::after {
+  content: 'Успех!';
+  font-size: 0px;
+  color: #66ff66;
+  display: block;
+  position: relative;
+  top: 32%;
+  right: -26%;
+  transition: font-size .001s;
+  transition-delay: 1s;
+}
+
+.block:hover::after {
+  font-size: 50px;
+}
